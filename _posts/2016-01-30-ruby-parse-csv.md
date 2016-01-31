@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ruby parses CSV file
+title: Ruby parses CSV file to an array of hash with symbolized keys
 category: ruby
 ---
 
