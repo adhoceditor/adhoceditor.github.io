@@ -19,7 +19,7 @@ end
 For example, with the following input file:
 
 ```
-year, month, date
+year,month,date
 2015,01,11
 2016,01,12
 ```
