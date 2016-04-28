@@ -4,11 +4,11 @@
 permalink:           pretty
 
 # Setup
-title:               Pingster
-tagline:             'In his Pingdom'
-description:         'Welcom to Pingdom'
-url:                 https://github.com/pingzh
-baseurl:             'http://pingzh.github.io/'
+title:               Adhoc Editor
+tagline:             'Adhoc Editor'
+description:         'Welcom to Adhoc Editor'
+url:                 https://github.com/adhoceditor
+baseurl:             'http://adhoceditor.github.io/'
 paginate:            5
 
 # About/contact
