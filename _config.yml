@@ -4,8 +4,8 @@
 permalink:           pretty
 
 # Setup
-title:               Adhoc Editor
-tagline:             'Adhoc Editor'
+title:               AEditor
+tagline:             'Online Adhoc Editor'
 description:         'Welcom to Adhoc Editor'
 url:                 https://github.com/adhoceditor
 baseurl:             'http://adhoceditor.github.io/'
