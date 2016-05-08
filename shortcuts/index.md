@@ -3,27 +3,52 @@ layout: page
 title: Shortcuts
 ---
 
-## Line Operations
+There are two kinds of shortcuts in Adhoc Editor, website shortcuts and editor shortcuts.
+
+## Website Shortcuts
+
+When the cursor does not focus on the editor, press `?` to view all the
+available shortcuts.
 
 | Windows/Linux                  | Mac                            | Action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
-| Ctrl-D | Command-D | Remove line |
+| Alt-f | Option-f | Focus on the editor |
+| Alt-n | Option-n | Create a new file |
+| Alt-m | Option-m | Toggle the menu |
+| Alt-s | Option-s | Toggle the setting |
+
+
+## Editor Shortcuts
+
+In addition to the following editor shortcuts, there are more shortcuts in the **vim** mode.
+
+|:-------------------------------|:-------------------------------|
+| : n | Create a new file |
+| : m | Toggle the menu |
+| : s | Toggle the setting |
+
+
+#### Line Operations
+
+| Windows/Linux                  | Mac                            | Action                         |
+|:-------------------------------|:-------------------------------|:-------------------------------|
+| Ctrl-d | Command-d | Remove line |
 | Alt-Shift-Down | Command-Option-Down | Copy lines down |
 | Alt-Shift-Up | Command-Option-Up | Copy lines up |
 | Alt-Down | Option-Down | Move lines down |
 | Alt-Up | Option-Up | Move lines up |
-| Alt-Delete | Ctrl-K | Remove to line end |
+| Alt-Delete | Ctrl-k | Remove to line end |
 | Alt-Backspace | Command-Backspace | Remove to linestart |
 | Ctrl-Backspace | Option-Backspace, Ctrl-Option-Backspace | Remove word left |
 | Ctrl-Delete | Option-Delete | Remove word right |
-| --- | Ctrl-O | Split line |
+| --- | Ctrl-o | Split line |
 
 
-## Selection
+#### Selection
 
 | Windows/Linux                  | Mac                            | Action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
-| Ctrl-A | Command-A | Select all |
+| Ctrl-a | Command-a | Select all |
 | Shift-Left | Shift-Left | Select left |
 | Shift-Right | Shift-Right | Select right |
 | Ctrl-Shift-Left | Option-Shift-Left | Select word left |
@@ -38,11 +63,11 @@ title: Shortcuts
 | Shift-PageDown | Shift-PageDown | Select page down |
 | Ctrl-Shift-Home | Command-Shift-Up | Select to start |
 | Ctrl-Shift-End | Command-Shift-Down | Select to end |
-| Ctrl-Shift-D | Command-Shift-D | Duplicate selection |
-| Ctrl-Shift-P | --- | Select to matching bracket |
+| Ctrl-Shift-d | Command-Shift-d | Duplicate selection |
+| Ctrl-Shift-p | --- | Select to matching bracket |
 
 
-## Multicursor
+### Multicursor
 
 | Windows/Linux                  | Mac                            | Action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
@@ -54,69 +79,69 @@ title: Shortcuts
 | Ctrl-Alt-Shift-Down | Ctrl-Option-Shift-Down | Move multicursor from current line to the line below |
 | Ctrl-Alt-Shift-Right | Ctrl-Option-Shift-Right | Remove current occurrence from multi-selection and move to next |
 | Ctrl-Alt-Shift-Left | Ctrl-Option-Shift-Left | Remove current occurrence from multi-selection and move to previous |
-| Ctrl-Shift-L | Ctrl-Shift-L | Select all from multi-selection |
+| Ctrl-Shift-l | Ctrl-Shift-l | Select all from multi-selection |
 
 
-## Go to
+### Go to
 
 | Windows/Linux                  | Mac                            | Action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
-| Left | Left, Ctrl-B | Go to left |
-| Right | Right, Ctrl-F | Go to right |
+| Left | Left, Ctrl-b | Go to left |
+| Right | Right, Ctrl-f | Go to right |
 | Ctrl-Left | Option-Left | Go to word left |
 | Ctrl-Right | Option-Right | Go to word right |
-| Up | Up, Ctrl-P | Go line up |
-| Down | Down, Ctrl-N | Go line down |
-| Alt-Left, Home | Command-Left, Home, Ctrl-A | Go to line start |
-| Alt-Right, End | Command-Right, End, Ctrl-E | Go to line end |
+| Up | Up, Ctrl-p | Go line up |
+| Down | Down, Ctrl-p | Go line down |
+| Alt-Left, Home | Command-Left, Home, Ctrl-a | Go to line start |
+| Alt-Right, End | Command-Right, End, Ctrl-e | Go to line end |
 | PageUp | Option-PageUp | Go to page up |
-| PageDown | Option-PageDown, Ctrl-V | Go to page down |
+| PageDown | Option-PageDown, Ctrl-v | Go to page down |
 | Ctrl-Home | Command-Home, Command-Up | Go to start |
 | Ctrl-End | Command-End, Command-Down | Go to end |
-| Ctrl-L | Command-L | Go to line |
+| Ctrl-l | Command-l | Go to line |
 | Ctrl-Down | Command-Down | Scroll line down |
 | Ctrl-Up | --- | Scroll line up |
-| Ctrl-P | --- | Go to matching bracket |
+| Ctrl-p | --- | Go to matching bracket |
 | --- | Option-PageDown | Scroll page down |
 | --- | Option-PageUp | Scroll page up |
 
 
-## Find/Replace
+### Find/Replace
 
 | Windows/Linux                  | Mac                            | Action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
-| Ctrl-F | Command-F | Find |
-| Ctrl-H | Command-Option-F | Replace |
-| Ctrl-K | Command-G | Find next |
-| Ctrl-Shift-K | Command-Shift-G | Find previous |
+| Ctrl-f | Command-f | Find |
+| Ctrl-h | Command-Option-f | Replace |
+| Ctrl-k | Command-g | Find next |
+| Ctrl-Shift-k | Command-Shift-g | Find previous |
 
 
-## Folding
+### Folding
 
 | Windows/Linux                  | Mac                            | Action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
-| Alt-L, Ctrl-F1 | Command-Option-L, Command-F1 | Fold selection |
-| Alt-Shift-L, Ctrl-Shift-F1 | Command-Option-Shift-L, Command-Shift-F1 | Unfold |
+| Alt-l, Ctrl-F1 | Command-Option-L, Command-F1 | Fold selection |
+| Alt-Shift-l, Ctrl-Shift-F1 | Command-Option-Shift-l, Command-Shift-F1 | Unfold |
 | Alt-0 | Command-Option-0 | Fold all |
 | Alt-Shift-0 | Command-Option-Shift-0 | Unfold all |
 
 
-## Other
+### Other
 
 | Windows/Linux                  | Mac                            | Action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
 | Tab | Tab | Indent |
 | Shift-Tab | Shift-Tab | Outdent |
-| Ctrl-Z | Command-Z | undo |
-| Ctrl-Shift-Z, Ctrl-Y | Command-Shift-Z, Command-Y | Redo |
+| Ctrl-z | Command-z | undo |
+| Ctrl-Shift-z, Ctrl-y | Command-Shift-z, Command-y | Redo |
 | Ctrl-, | Command-, | Show the settings menu |
 | Ctrl-/ | Command-/ | Toggle comment |
-| Ctrl-T | Ctrl-T | Transpose letters |
+| Ctrl-t | Ctrl-t | Transpose letters |
 | Ctrl-Enter | Command-Enter | Enter full screen |
-| Ctrl-Shift-U | Ctrl-Shift-U | Change to lower case |
-| Ctrl-U | Ctrl-U | Change to upper case |
+| Ctrl-Shift-u | Ctrl-Shift-u | Change to lower case |
+| Ctrl-u | Ctrl-u | Change to upper case |
 | Insert | Insert | Overwrite |
-| Ctrl-Shift-E | Command-Shift-E | Macros replay |
-| Ctrl-Alt-E | --- | Macros recording |
+| Ctrl-Shift-e | Command-Shift-e | Macros replay |
+| Ctrl-Alt-e | --- | Macros recording |
 | Delete | --- | Delete |
-| --- | Ctrl-L | Center selection |
+| --- | Ctrl-l | Center selection |
