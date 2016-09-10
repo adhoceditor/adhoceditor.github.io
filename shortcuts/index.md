@@ -5,27 +5,9 @@ title: Shortcuts
 
 There are two kinds of shortcuts in Adhoc Editor, website shortcuts and editor shortcuts.
 
-## Website Shortcuts
-
-When the cursor does not focus on the editor, press `?` to view all the
-available shortcuts.
-
-| Windows/Linux                  | Mac                            | Action                         |
-|:-------------------------------|:-------------------------------|:-------------------------------|
-| Alt-f | Option-f | Focus on the editor |
-| Alt-n | Option-n | Create a new file |
-| Alt-m | Option-m | Toggle the menu |
-| Alt-s | Option-s | Toggle the setting |
 
 
 ## Editor Shortcuts
-
-In addition to the following editor shortcuts, there are more shortcuts in the **vim** mode.
-
-|:-------------------------------|:-------------------------------|
-| : n | Create a new file |
-| : m | Toggle the menu |
-| : s | Toggle the setting |
 
 
 #### Line Operations
